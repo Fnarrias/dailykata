@@ -7,7 +7,6 @@ console.log(
         if(!result[k - i]){
             result[k - i]= i
         }
-        console.log("🚀 ~ file: solution.js ~ line 13 ~ result[k - i]", result[k - i])
         if(result[i]) return true
     }
     return false
